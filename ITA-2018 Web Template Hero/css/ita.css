@@ -56,7 +56,7 @@ body {
 	z-index: 40;
 	margin-left: 0;
 	font-size: 15px;
-	color: #000;
+	color: #f50808;
 }
 /* Nav Bar */
 #nav {
@@ -161,7 +161,7 @@ body {
 	background-color: #CCC;
 	text-align: center;
 }
-}
+
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
@@ -337,7 +337,7 @@ body {
 	position: absolute;
 	margin-left: 0;
 	font-size: 35px;
-	color: #000;
+	color: #f70857;
 }
 /* Nav Bar */
 			

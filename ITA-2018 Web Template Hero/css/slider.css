@@ -7,7 +7,7 @@ http://www.freshdesignweb.com/fashion-responsive-slider-tutorial.html
 .flex-caption{ position: absolute; right:11px; bottom:20px;}
 .caption_title_line{ width:1450px; height:75px; padding:5px 5px 10px 15px;}
 
-.flex-caption h2 { color:#33F; padding: 0% 0 0 50%; font-size:35px; text-transform: none;}
+.flex-caption h2 { color:#ff3333; padding: 0% 0 0 50%; font-size:35px; text-transform: none;}
 
 .flex-container a:active,
 .flexslider a:active {outline: none;}
