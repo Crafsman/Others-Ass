@@ -1,0 +1,452 @@
+@charset "UTF-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width: 100%;
+}
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	
+*/
+
+/* Mobile Layout: 480px and below. */
+body {
+	font-family: open sans, arial, sans-serif;
+	font-size: 90%;
+	background: #f2f2f2;
+}
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+	font-family: "open sans";
+}
+.headerLogo {
+	clear: none;
+	float: left;
+	width: 30%;
+	height: 30%;
+	padding: 3% 0 0 0%;
+	display: block;
+	text-align: center;
+	z-index: 20;
+	position: absolute;
+	margin-left: 0;
+}
+.headerLogo h1 {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+	text-align: center;
+	z-index: 40;
+	margin-left: 0;
+	font-size: 15px;
+	color: #000;
+}
+/* Nav Bar */
+#nav {
+	clear: both;
+	float: left;
+	padding-left: 18%;
+	width: 80%;
+	display: inline;
+	z-index: 50;
+	position: absolute;
+}
+#nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+#nav li {
+	float: left;
+	font-size: 15px;
+}
+#nav a:link, a:visited {
+	display: block;
+	width: 70px;
+	font-weight: normal;
+	color: #000;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+#nav a:hover, a:active {
+	text-decoration: underline;
+	color: #00F;
+}
+/* End  Nav Bar */
+
+
+.mission p {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+	color: #000;
+	padding: 0 10% 20% 10%;
+	font-size: 15px;
+	text-align: center;
+}
+.mission h2 {
+	clear: both;
+	float: none;
+	margin: 0 auto;
+	display: block;
+	color: #F00;
+	font-size: 20px;
+}
+/* Video*/
+#video {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+	text-align: left;
+}
+#video h2 {
+	text-align: center;
+	color: #F00;
+	width: 100%;
+}
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+.video-container iframe, .video-container object, .video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/* End Video*/
+						
+						/* Contact */
+#contact {
+	clear: none;
+	float: right;
+	width: 100%;
+	display: block;
+	text-align: left;
+}
+#contact h2 {
+	text-align: center;
+	color: #F00;
+}
+/* End Contact */
+#footer {
+	float: left;
+	margin-top: 10%;
+	min-width: 100%;
+	background-color: #CCC;
+	text-align: center;
+}
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+body {
+	font-family: open sans, arial, sans-serif;
+	font-size: 90%;
+	background: #f2f2f2;
+}
+.gridContainer {
+	width: 100%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+.headerLogo {
+	clear: none;
+	float: left;
+	display: block;
+	text-align: center;
+	z-index: 20;
+	position: static;
+	margin-left: 0;
+}
+.headerLogo h1 {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+	text-align: center;
+	z-index: 20;
+	position: absolute;
+	margin-left: 0;
+	font-size: 25px;
+	color: #000;
+}
+/* Nav Bar  */
+								
+							
+#nav {
+	clear: none;
+	float: right;
+	width: 30%;
+	display: inline;
+	z-index: 50;
+	position: absolute;
+}
+#nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+#nav li {
+	float: left;
+	font-size: 17px;
+}
+#nav a:link, a:visited {
+	display: block;
+	width: 70px;
+	font-weight: normal;
+	color: #000;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+#nav a:hover, a:active {
+	text-decoration: underline;
+	color: #00F;
+}
+/* End  Nav Bar  */
+
+.mission p {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+	color: #000;
+	padding: 0 10% 10% 10%;
+	font-size: 18px;
+	text-align: center;
+}
+.mission h2 {
+	clear: both;
+	float: none;
+	margin: 0 auto;
+	display: block;
+	color: #F00;
+	font-size: 25px;
+}
+/* Video*/
+#video {
+	clear: both;
+	float: left;
+	width: 47%;
+	display: block;
+	text-align: left;
+	margin-left: 5%;
+}
+#video h2 {
+	text-align: center;
+	color: #F00;
+}
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+.video-container iframe, .video-container object, .video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/* End Video*/
+						
+						/* Contact */
+#contact {
+	clear: none;
+	float: right;
+	width: 47%;
+	display: block;
+	text-align: left;
+	padding-top: 5%;
+}
+#contact h2 {
+	text-align: center;
+	color: #F00;
+}
+/* End Contact */
+
+#footer {
+	float: left;
+	margin-top: 10%;
+	min-width: 100%;
+	background-color: #CCC;
+	text-align: center;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+body {
+	font-family: open sans, arial, sans-serif;
+	font-size: 90%;
+	background: #f2f2f2;
+}
+.gridContainer {
+	width: 100%;
+	max-width: 1232px;
+	padding-left: 0.95%;
+	padding-right: 0.95%;
+	margin: auto;
+}
+.headerLogo {
+	clear: none;
+	float: left;
+	display: block;
+	text-align: center;
+	z-index: 20;
+	top: 20%;
+}
+.headerLogo h1 {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+	text-align: center;
+	z-index: 20;
+	position: absolute;
+	margin-left: 0;
+	font-size: 35px;
+	color: #000;
+}
+/* Nav Bar */
+			
+							
+#nav {
+	clear: none;
+	float: left;
+	display: inline;
+	z-index: 50;
+	padding-left: 55%;
+}
+#nav .ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+#nav .li {
+	float: left;
+	font-size: 20px;
+}
+#nav.a:link, a:visited {
+	display: block;
+	width: 170px;
+	color: #000;
+	font-weight: normal;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+#nav .a:hover, a:active {
+	text-decoration: overline;
+	color: #00F;
+}
+/* End  Nav Bar */
+
+
+.mission p {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+	color: #000;
+	padding: 0 10% 0 10%;
+	font-size: 18px;
+	text-align: center;
+}
+.mission h2 {
+	clear: both;
+	float: none;
+	margin: 0 auto;
+	display: block;
+	color: #F00;
+	font-size: 25px;
+}
+/* Video*/
+#video {
+	clear: both;
+	float: left;
+	width: 47%;
+	display: block;
+	text-align: left;
+	margin-left: 5%;
+}
+#video h2 {
+	text-align: center;
+	color: #F00;
+}
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+.video-container iframe, .video-container object, .video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/* End Video*/
+						
+						/* Contact */
+#contact {
+	clear: none;
+	float: right;
+	width: 47%;
+	display: block;
+	text-align: left;
+}
+#contact h2 {
+	text-align: center;
+	color: #F00;
+}
+/* End Contact */
+#footer {
+	float: left;
+	margin-top: 10%;
+	min-width: 100%;
+	background-color: #CCC;
+	text-align: center;
+}
+
+/* Desktop Layout for Retina and Ultra Large Screens: 1232px and above.  Inherits styles from: Desktop Layout. */
+	
+				@media screen and (max-device-width: 1920px) {
+ .gridContainer {
+ max-device-width:100%;
+}
+}

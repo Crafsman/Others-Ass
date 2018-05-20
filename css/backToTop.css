@@ -1,0 +1,18 @@
+
+a.back-to-top {
+display: none;
+	width: 120px;
+	height: 40px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 5%;
+	bottom: 25%;
+	background: #CCC url("../images/up-arrow.png") no-repeat center 43%;
+	-webkit-border-radius: 130px;
+	-moz-border-radius: 130px;
+	border-radius: 130px;
+}
+a:hover.back-to-top {
+	background-color:  #999;
+}
