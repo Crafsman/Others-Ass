@@ -25,7 +25,7 @@ img, object, embed, video {
 body {
 	font-family: open sans, arial, sans-serif;
 	font-size: 90%;
-	background: #f2f2f2;
+	background: #f8f8ccd0;
 }
 .gridContainer {
 	margin-left: auto;
@@ -100,7 +100,7 @@ body {
 	float: left;
 	width: 100%;
 	display: block;
-	color: rgb(241, 199, 11);
+	color: #f8a203;
 	padding: 0 10% 20% 10%;
 	font-size: 15px;
 	text-align: center;
@@ -110,7 +110,7 @@ body {
 	float: none;
 	margin: 0 auto;
 	display: block;
-	color: #00ff00;
+	color: #4CAF50;
 	font-size: 20px;
 }
 /* Video*/
@@ -123,7 +123,7 @@ body {
 }
 #video h2 {
 	text-align: center;
-	color: #F00;
+	color:#4CAF50;
 	width: 100%;
 }
 .video-container {
@@ -169,7 +169,7 @@ body {
 body {
 	font-family: open sans, arial, sans-serif;
 	font-size: 90%;
-	background: #f2f2f2;
+	background: #f8f8ccd0;
 }
 .gridContainer {
 	width: 100%;
@@ -239,7 +239,7 @@ body {
 	float: left;
 	width: 100%;
 	display: block;
-	color: #000;
+	color: #f8a203;
 	padding: 0 10% 10% 10%;
 	font-size: 18px;
 	text-align: center;
@@ -249,7 +249,7 @@ body {
 	float: none;
 	margin: 0 auto;
 	display: block;
-	color: #07fc89;
+	color: #4CAF50;
 	font-size: 25px;
 }
 /* Video*/
@@ -263,7 +263,7 @@ body {
 }
 #video h2 {
 	text-align: center;
-	
+
 	color: #00ff37;
 }
 .video-container {
@@ -311,7 +311,7 @@ body {
 body {
 	font-family: open sans, arial, sans-serif;
 	font-size: 90%;
-	background: #f2f2f2;
+	background: #f8f8ccd0;
 }
 .gridContainer {
 	width: 100%;
@@ -382,7 +382,7 @@ body {
 	float: left;
 	width: 100%;
 	display: block;
-	color: #000;
+	color: #f8a203;
 	padding: 0 10% 0 10%;
 	font-size: 18px;
 	text-align: center;
@@ -392,7 +392,7 @@ body {
 	float: none;
 	margin: 0 auto;
 	display: block;
-	color: #F00;
+	color:#4CAF50;
 	font-size: 25px;
 }
 /* Video*/
