@@ -151,14 +151,14 @@ body {
 }
 #contact h2 {
 	text-align: center;
-	color: #F00;
+	color:  #4CAF50;
 }
 /* End Contact */
 #footer {
 	float: left;
 	margin-top: 10%;
 	min-width: 100%;
-	background-color: #CCC;
+	background-color: #84e0f0;
 	text-align: center;
 }
 }
@@ -263,8 +263,7 @@ body {
 }
 #video h2 {
 	text-align: center;
-
-	color: #00ff37;
+	color: #4CAF50;
 }
 .video-container {
 	position: relative;
@@ -292,7 +291,7 @@ body {
 }
 #contact h2 {
 	text-align: center;
-	color: #F00;
+	color:  #4CAF50;
 }
 /* End Contact */
 
@@ -300,7 +299,7 @@ body {
 	float: left;
 	margin-top: 10%;
 	min-width: 100%;
-	background-color: #CCC;
+	background-color: #84e0f0;
 	text-align: center;
 }
 }
@@ -406,7 +405,7 @@ body {
 }
 #video h2 {
 	text-align: center;
-	color: #F00;
+	color:#4CAF50;
 }
 .video-container {
 	position: relative;
@@ -433,14 +432,14 @@ body {
 }
 #contact h2 {
 	text-align: center;
-	color: #F00;
+	color: #4CAF50;
 }
 /* End Contact */
 #footer {
 	float: left;
 	margin-top: 10%;
 	min-width: 100%;
-	background-color: #CCC;
+	background-color: #84e0f0;
 	text-align: center;
 }
 
