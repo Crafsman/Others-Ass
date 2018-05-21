@@ -100,7 +100,7 @@ body {
 	float: left;
 	width: 100%;
 	display: block;
-	color: #000;
+	color: rgb(241, 199, 11);
 	padding: 0 10% 20% 10%;
 	font-size: 15px;
 	text-align: center;
@@ -110,7 +110,7 @@ body {
 	float: none;
 	margin: 0 auto;
 	display: block;
-	color: #F00;
+	color: #00ff00;
 	font-size: 20px;
 }
 /* Video*/
@@ -161,7 +161,7 @@ body {
 	background-color: #CCC;
 	text-align: center;
 }
-
+}
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
@@ -249,7 +249,7 @@ body {
 	float: none;
 	margin: 0 auto;
 	display: block;
-	color: #F00;
+	color: #07fc89;
 	font-size: 25px;
 }
 /* Video*/
@@ -263,7 +263,8 @@ body {
 }
 #video h2 {
 	text-align: center;
-	color: #F00;
+	
+	color: #00ff37;
 }
 .video-container {
 	position: relative;
