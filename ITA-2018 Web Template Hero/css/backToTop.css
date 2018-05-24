@@ -1,14 +1,14 @@
 
 a.back-to-top {
 display: none;
-	width: 120px;
+	width: 60px;
 	height: 40px;
 	text-indent: -9999px;
 	position: fixed;
 	z-index: 999;
 	right: 5%;
-	bottom: 25%;
-	background: #CCC url("../images/up-arrow.png") no-repeat center 43%;
+	bottom: 15%;
+	background: #CCC url("../images/back-to-top-button.png") no-repeat center 43%;
 	-webkit-border-radius: 130px;
 	-moz-border-radius: 130px;
 	border-radius: 130px;
